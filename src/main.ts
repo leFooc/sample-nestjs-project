@@ -13,6 +13,6 @@ async function bootstrap() {
 
   const documentFactory = () => SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, documentFactory);
-  await app.listen(8080);
+  await app.listen(10000);
 }
 bootstrap();
